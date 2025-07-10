@@ -41,7 +41,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-primary text-fontWhite px-2 py-6">
+    <div className="flex flex-col items-center justify-center h-screen bg-primary text-fontWhite px-2 py-6">
       <div className="w-full max-w-3xl md:max-w-6xl flex-1 flex flex-col justify-end">
         <ChatBox
           messages={messages}

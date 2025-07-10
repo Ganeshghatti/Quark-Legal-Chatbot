@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/logo.webp" type="image/webp" />
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen `}
       >
         <Navbar />
         {children}
